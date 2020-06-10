@@ -243,7 +243,7 @@
 
         <plugin>
           <artifactId>maven-project-info-reports-plugin</artifactId>
-          <version>3.0.0</version>
+          <version>3.1.0</version>
           <configuration>
             <dependencyDetailsEnabled>false</dependencyDetailsEnabled>
             <dependencyLocationsEnabled>false</dependencyLocationsEnabled>
@@ -298,6 +298,11 @@
           <groupId>org.codehaus.mojo</groupId>
           <artifactId>wagon-maven-plugin</artifactId>
           <version>2.0.0</version>
+        </plugin>
+
+        <plugin>
+          <artifactId>maven-wrapper-plugin</artifactId>
+          <version>3.0.1</version>
         </plugin>
 
         <plugin>
